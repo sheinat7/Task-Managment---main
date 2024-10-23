@@ -1,0 +1,13 @@
+.content {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}

@@ -1,0 +1,46 @@
+.calendar {
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 14.28%; /* Ensure each cell takes equal width */
+  cursor: pointer;
+}
+
+thead {
+  background-color: #f4f4f4;
+  color: red;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.cell.disabled {
+  color: #ddd;
+  pointer-events: none;
+}
+
+.cell.selected {
+  background-color: #87ceeb;
+  color: white;
+}
+.empty-cell {
+  background-color: #f9f9f9; /* Light color for empty cells */
+  border: 1px solid #ccc; /* Same border as other cells */
+}

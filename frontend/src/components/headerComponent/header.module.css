@@ -1,0 +1,27 @@
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+}
+
+li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+li a:hover {
+  color: #f0f0f0;
+}

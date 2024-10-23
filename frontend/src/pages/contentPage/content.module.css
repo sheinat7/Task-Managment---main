@@ -1,0 +1,17 @@
+article {
+  display: flex;
+  justify-content: center; /* Horizontally center the sections */
+  align-items: center; /* Vertically center the sections */
+  gap: 20px; /* Add space between sections */
+  padding: 20px; /* Add padding for better spacing */
+  height: 75vh;
+  width: 100%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

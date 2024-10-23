@@ -1,0 +1,29 @@
+.profilePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileImage img {
+  border-radius: 50%;
+}
+
+.current-time {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.taskList {
+  margin-top: 30px;
+}
+
+.taskList ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+
+.taskList li {
+  margin-bottom: 10px; /* Space between each task */
+}
